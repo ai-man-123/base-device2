@@ -1286,26 +1286,6 @@ if (command) {
 console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;32m LIAACANS \x1b[1;37m]', time, chalk.green(budy || m.mtype), 'Dari', chalk.blue(pushname), 'Di', chalk.yellow(groupName ? groupName : 'Private Chat' ), 'args :', chalk.white(args.length))
 }
 //━━━━━━━━━━━━━━━[ FITURNYA ]━━━━━━━━━━━━━━━━━//
-
-switch(command) {
-case 'verify': case 'daftar': case 'login':{
-if (cekUser("id", m.sender) !== null) return m.reply('Kamu sudah terdaftar !!')
-var res_us = `${makeid(10)}`
-var user_name = `#GR${makeid(5)}`
-let object_user = {"id": m.sender, "name": user_name, "seri": res_us }
-db_user.push(object_user)
-fs.writeFileSync('./json/user.json', JSON.stringify(db_user, 2, null))
-mentions(`𝖬𝖾𝗆𝗎𝖺𝗍 𝖴𝗌𝖾𝗋 @${m.sender.split("@")[0]}`, [m.sender])
-await sleep(1500)
-var verify_teks =`───「 𝗧𝗘𝗥𝗩𝗘𝗥𝗜𝗙𝗜𝗞𝗔𝗦𝗜 」────
-
-○ ID : @${m.sender.split('@')[0]}
-○ Name : ${user_name}
-○ Seri : ${res_us}
-
-silahkan ketik #rules
-untuk membaca rules bot
-`
 const buttonMessage = {
 text: verify_teks,
 footer: 'Klik button untuk melihat menu',
