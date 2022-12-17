@@ -31,17 +31,17 @@ global.APIKeys = {
 
 //━━━━━━━━━━━━━━━[ SETTING ]━━━━━━━━━━━━━━━━━//
 global.thumb = fs.readFileSync('./image/thumbnail.jpg') // JGN DI UBAH!
-global.name = 'Aulia Rahman (Owner)', // GNTI NAMA LU!
-global.creator = 'LiaaCans BOT' // GANTI NAMA BOT LU BANH!
-global.owner = ['6285821676621'] // GNTI NOMOR LU!
-global.premium = ['6285821676621', '6285821310166']
+global.name = 'lynxaiman', // GNTI NAMA LU!
+global.creator = 'lynx BOT' // GANTI NAMA BOT LU BANH!
+global.owner = ['60102810046'] // GNTI NOMOR LU!
+global.premium = ['0', '60102810046']
  // ADD PREM YG LU MAU BANH!!
 global.quotes = 'Kesempatan Anda Untuk Sukses Di Setiap Kondisi Selalu Dapat Diukur Oleh Seberapa Besar Kepercayaan Anda Pada Diri Sendiri' // Ganti Quotes, Tapi Trsrh Klian
-global.pulsa = ['081528965381'] // UBAH NOMOR YG AKTIF!
-global.botname = 'Created LiaaCans BOT' // GNTI NAMA BOT LU!
-global.packname = 'Nih Stikel Umtukmu' // TRSERAH MO GANTI AP!
-global.author = 'LiaaCans BOT' // GNTI NMA LU!
-global.fake = 'LIAACANS BOT VERIFIED' // GNTI NMA BOT LU BANH!
+global.pulsa = ['0102810046'] // UBAH NOMOR YG AKTIF!
+global.botname = 'Created lynx BOT' // GNTI NAMA BOT LU!
+global.packname = 'Nih Stikel Untukmu anjasss' // TRSERAH MO GANTI AP!
+global.author = 'lynx BOT' // GNTI NMA LU!
+global.fake = 'Lynx BOT' // GNTI NMA BOT LU BANH!
 global.prefa = ['','!','.','/','#','$']
 global.sp = '⭔' // JGN DI UBAH²! NTR EROR
 global.mess = {
