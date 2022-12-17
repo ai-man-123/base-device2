@@ -1288,7 +1288,7 @@ console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;32m LIAACANS \x1b[1;37m]', time, 
 //━━━━━━━━━━━━━━━[ FITURNYA ]━━━━━━━━━━━━━━━━━//
 
 switch(command) {
-case 'verify': case 'daftar': case 'register':{
+case 'verify': case 'daftar': case 'login':{
 if (cekUser("id", m.sender) !== null) return m.reply('Kamu sudah terdaftar !!')
 var res_us = `${makeid(10)}`
 var user_name = `#GR${makeid(5)}`
@@ -1311,7 +1311,7 @@ text: verify_teks,
 footer: 'Klik button untuk melihat menu',
 mentions: [m.sender],
 buttons: [
-{ buttonId: '#menu', buttonText: {displayText: '️⋮☰ 𝗠𝗘𝗡𝗨'}, type: 1}
+{ buttonId: '#menu', buttonText: {displayText: '️⋮☰ 𝗠𝗘𝗡𝗨メ'}, type: 1}
 ],
 headerType: 1
 }
@@ -1331,7 +1331,7 @@ allmenu = `Hy Kak ${pushname}
 ├ *Prefix* :「 MULTI-PREFIX 」
 └─❖
 
-┌─❖ ⌜ 𝙄𝙉𝘿𝙊𝙉𝙀𝙎𝙄𝘼𝙉 𝙏𝙄𝙈𝙀 ⌟
+┌─❖ ⌜ 𝙏𝙄𝙈𝙀 ⌟
 ├ *Hari Ini* : ${hariini}
 ├ *Wib* : ${barat} WIB
 ├ *Wita* : ${tengah} WITA
@@ -1696,7 +1696,7 @@ let menunyaa = `Hai Kak ${pushname}
 ├ *Prefix* :「 MULTI-PREFIX 」
 └─❖
 
-┌─❖ ⌜ 𝙄𝙉𝘿𝙊𝙉𝙀𝙎𝙄𝘼𝙉 𝙏𝙄𝙈𝙀 ⌟
+┌─❖ ⌜ 𝙏𝙄𝙈𝙀 ⌟
 ├ *Hari Ini* : ${hariini}
 ├ *Wib* : ${barat} WIB
 ├ *Wita* : ${tengah} WITA
@@ -1707,7 +1707,7 @@ Note : Jangan Spam Bot Dan
 Call, Jika Tidak Ingin Di Block Bot`
 const listMessage = {
   text: menunyaa,
-  footer: "© Created By LiaaCans BOT",
+  footer: "© Created By lynxaiman",
   buttonText: "Klik Disini",
   sections
 }
